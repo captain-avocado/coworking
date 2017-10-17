@@ -1,0 +1,41 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-feed_icon-black {
+    width: 21px;
+    height: 19px;
+    background-position: -5px -5px;
+}
+
+.sprite-feed_icon-red {
+    width: 21px;
+    height: 19px;
+    background-position: -36px -5px;
+}
+
+.sprite-main_icon-black {
+    width: 17px;
+    height: 15px;
+    background-position: -5px -34px;
+}
+
+.sprite-main_icon-red {
+    width: 17px;
+    height: 15px;
+    background-position: -32px -34px;
+}
+
+.sprite-wallet_icon-black {
+    width: 19px;
+    height: 16px;
+    background-position: -67px -5px;
+}
+
+.sprite-wallet_icon-red {
+    width: 19px;
+    height: 16px;
+    background-position: -67px -31px;
+}

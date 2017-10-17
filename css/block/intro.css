@@ -1,0 +1,87 @@
+.wrapper_intro {
+  background: url(../../img/intro-background.jpg) center center no-repeat;
+  background-size: cover;
+  min-width: 200px;
+  height: 100%;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #ff0000;
+  opacity: .12;
+}
+
+.workadium {
+  opacity: 2;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: transparent;
+}
+
+.workadium__logo {
+  width: 180px;
+  margin-bottom: 20px;
+  animation: zoomInUp 3s;
+}
+
+.workadium__button {
+  display: block;
+  text-decoration: none;
+  width: 182px;
+  height: 45px;
+  margin: 0 auto;
+  border: 3px solid #ec1e79;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 14px;
+  color: #ec1e79;
+  line-height: 14px;
+  letter-spacing: .003em;
+  animation: zoomInDown 3s;
+}
+
+.workadium__button:hover {
+  color: #fff;
+  background-color: #ec1e79;
+  transition: all .5s;
+}
+
+@keyframes zoomInUp {
+  from {
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, 1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, -60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+@keyframes zoomInDown {
+  from {
+    opacity: 0;
+    transform: scale3d(.1, .1, .1) translate3d(0, -1000px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(.475, .475, .475) translate3d(0, 60px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}

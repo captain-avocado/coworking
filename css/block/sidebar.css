@@ -1,0 +1,134 @@
+aside {
+  /*width: 140px;*/
+  float: left;
+  padding-right: 0px;
+}
+
+.navigation__link {
+  text-decoration: none;
+}
+
+.navigation__link:hover .navigation__title {
+  color: #3f3d3d;
+  transition: color .5s;
+}
+
+.navigation__link:not(.navigation__link_current):hover .navigation__title {
+  animation: navTitleAppear .25s;
+}
+
+.navigation__link:not(.navigation__link_current):hover .navigation__icon {
+  animation: navIconAppear .25s;
+}
+
+.navigation__link:hover .navigation__icon_main {
+  width: 17px;
+  height: 15px;
+  background-position: -5px -34px;
+}
+
+.navigation__link:hover .navigation__icon_rates {
+  width: 19px;
+  height: 16px;
+  background-position: -67px -5px;
+}
+
+.navigation__link:hover .navigation__icon_feed {
+  width: 21px;
+  height: 19px;
+  background-position: -5px -5px;
+}
+
+.navigation__item {
+  margin-bottom: 26px;
+}
+
+.navigation__icon {
+  width: 19px;
+  height: 19px;
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(../../img/icons/sidebar__spritesheet.png);
+  background-repeat: no-repeat;
+}
+
+.navigation__title {
+  display: inline-block;
+  vertical-align: middle;
+  /* Отступ слева от иконки */
+  margin-left: 16px;
+
+  max-width: 150px;
+  min-width: 70px;
+  height: 14px;
+
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: #ec1e79;
+}
+
+.navigation__link_current {
+  cursor: default;
+}
+
+.navigation__link_current .navigation__title {
+  color: #3f3d3d;
+}
+
+.navigation__icon_main {
+  width: 17px;
+  height: 15px;
+  background-position: -32px -34px;
+}
+
+.navigation__icon_rates {
+  width: 19px;
+  height: 16px;
+  background-position: -67px -31px;
+}
+
+.navigation__icon_feed {
+  width: 21px;
+  height: 19px;
+  background-position: -36px -5px;
+}
+
+.navigation__link_current .navigation__icon_main {
+  width: 17px;
+  height: 15px;
+  background-position: -5px -34px;
+}
+
+.navigation__link_current .navigation__icon_rates {
+  width: 19px;
+  height: 16px;
+  background-position: -67px -5px;
+}
+
+.navigation__link_current .navigation__icon_feed {
+  width: 21px;
+  height: 19px;
+  background-position: -5px -5px;
+}
+
+@keyframes navTitleAppear {
+  from {
+    transform: scale3d(.1, .1, .1) translateX(-10%);
+  }
+
+  60% {
+    transform: scale3d(.475, .475, .475) translateX(-37.5%);;
+  }
+}
+
+@keyframes navIconAppear {
+  from {
+    transform: translateX(-1000px);
+  }
+
+  60% {
+    transform: translateX(-60px);
+  }
+}

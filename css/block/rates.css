@@ -1,0 +1,131 @@
+/*section {
+  padding-top: 40px;
+}*/
+
+/*.content_rates {
+  float: left;
+  margin-left: 74px;
+  margin-right: -35px;
+  width: 900px;
+}*/
+
+
+.breadcrumps {
+  margin-top: -4px;
+  margin-bottom: 12px;
+}
+
+.breadcrumps__item {
+  display: inline-block;
+}
+
+.breadcrumps__item:after {
+  content: '/';
+}
+
+.breadcrumps__item:last-child:after {
+  display: none;
+}
+
+.breadcrumps__link {
+  font-size: 14px;
+  font-style: italic;
+  color: #f587b8;
+}
+
+.breadcrumps__link:hover, .breadcrumps__link_current {
+  text-decoration: none;
+  color: #4e4c4c;
+}
+
+.breadcrumps__link_current {
+  cursor: default;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-size: 49px;
+  font-weight: bold;
+  color: #221f1f;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  font-style: normal;
+}
+
+.rates {
+  font-size: 0;
+  /*margin-right: -45px;*/
+}
+
+.rates__item {
+  margin-right: 45px;
+  width: 250px;
+  /*height: 500px;*/
+  margin-bottom: 45px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+}
+
+/*.rates__picture {
+  display: inline-block;
+}*/
+
+.rates:nth-child(3n) {
+  margin-right: 0px;
+}
+
+.rates__picture {
+  border-radius: 2px;
+  width: 250px;
+  height: 150px;
+  margin-bottom: 26px;
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 24px;
+  font-weight: bold;
+  color: #5ac6ec;
+}
+
+.rates__picture_pic-first {
+  background-image: url(../../img/rates-overlays/overlay1.png);
+}
+.rates__picture_pic-second {
+  background-image: url(../../img/rates-overlays/overlay2.png);
+}
+.rates__picture_pic-third {
+  background-image: url(../../img/rates-overlays/overlay3.png);
+}
+.rates__picture_pic-fourth {
+  background-image: url(../../img/rates-overlays/overlay4.png);
+}
+.rates__picture_pic-fifth {
+  background-image: url(../../img/rates-overlays/overlay5.png);
+}
+.rates__picture_pic-sixth {
+  background-image: url(../../img/rates-overlays/overlay6.png);
+}
+
+
+.rates__vip {
+  font-size: 24px;
+  font-weight: bold;
+  color: #c9246f;
+}
+
+.rates__price {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  /*line-height: 1.35;*/
+  font-weight: bold;
+  color: #221f1f;
+}
+
+.rates__description {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #312e2e;
+}

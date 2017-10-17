@@ -1,0 +1,11 @@
+/*Глобальный стиль, стиль настройки Layout*/
+@import "block/setup.css";
+
+/*Подключение стилей блоков*/
+@import "block/header.css";
+@import "block/footer.css";
+@import "block/sidebar.css";
+@import "block/intro.css";
+@import "block/main.css";
+@import "block/rates.css";
+@import "block/feed.css";

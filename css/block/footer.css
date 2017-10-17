@@ -1,0 +1,114 @@
+footer {
+  min-height: 75px;
+  margin-top: -75px;
+  min-width: 1080px;
+  background-color: #27273e;
+}
+
+.footer__col {
+  height: 100%;
+  width: 33.33%;
+  float: left;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.footer__col_right {
+  text-align: right;
+  padding-top: 16px;
+}
+
+.footer__col_left {
+  text-align: left;
+  padding-top: 12px;
+}
+
+.logof {
+  display: inline-block;
+}
+.footer__col_center {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.authors {
+  width: 270px;
+}
+
+.social {
+  display: inline-block;
+}
+
+.social__label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.social__list {
+  text-align: left;
+}
+
+.social__link {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  background: #d4d4d8;
+  border-radius: 50%;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.social__link:hover {
+  background-color: #ec1e79;
+  transition: background-color .5s;
+}
+
+.social__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url(../../img/icons/footer__spritesheet.png);
+  background-repeat: no-repeat;
+}
+
+.social__icon_vk {
+    width: 6px;
+    height: 13px;
+    background-position: -15px -15px;
+}
+
+.social__icon_fb {
+    width: 15px;
+    height: 9px;
+    background-position: -51px -15px;
+}
+
+.social__icon_google {
+    width: 12px;
+    height: 9px;
+    background-position: -51px -54px;
+}
+
+.social__icon_tw {
+    width: 11px;
+    height: 9px;
+    background-position: -96px -15px;
+}
+
+.social__icon_mail {
+    width: 14px;
+    height: 8px;
+    background-position: -93px -54px;
+}
+
+.social__item {
+
+  /*Отображение в ряд иконок и с небольшим отсупом*/
+  display: inline-block;
+  margin-right: 5px;
+}
+
+/* блоки по умолчанию имеют ширину родителя, высоту 0
