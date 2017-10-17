@@ -1,3 +1,3 @@
 # coworking
-Project from loftschool. Only HTML+CSS.
-Use native github link klv-codehub.github.io to open the project
+Project from _loftschool_. Only **_HTML+CSS_**.
+Use native github link [GitHub Pages](https://pages.github.com/) to open the project
